@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +31,21 @@ internal class Program
         {"Strawberry", "Bush" },
         {"Raspberry", "Bush" },
         {"Orange", "Tree" }
+    };
+
+    public static Dictionary<string, string> EmployeeDictionary = new Dictionary<string, string>
+    {
+        {"Ahmed", "IT" },
+        {"Ali", "Sales" },
+        {"Reda", "Marketing" },
+        {"Khalid", "Engineering" },
+        {"Mohammed", "Marketing" },
+        {"Mahmoud", "IT" },
+        {"Tariq", "Marketing" },
+        {"Salim", "Engineering" },
+        {"Mustafa", "IT" },
+        {"Omar", "IT" },
+        {"Fahed", "Engineering" }
     };
 
     public static void PrintDictionaryContent<Tkey, Tvalue>(Dictionary<Tkey, Tvalue> dictionary)
@@ -88,6 +105,36 @@ internal class Program
 
     }
 
+    public static void LINQ_Example3()
+    {
+        var query = from employee in EmployeeDictionary
+                    where employee.Value == "IT" || employee.Value == "Sales"
+                    select employee;
+
+        foreach (var item in query)
+        {
+            Console.WriteLine(item.Key + ", " + item.Value);
+        }
+
+    }
+
+    public static void LINQ_Example4()
+    {
+        var query = from employee in EmployeeDictionary
+                    group employee.Key by employee.Value;
+                    
+        foreach (var group in query)
+        {
+            Console.WriteLine($"\n\nDepartment: {group.Key}, Number of Employees: {group.Count()}: ");
+            foreach (var item in group)
+            {
+                Console.Write("  - " + item + ", ");
+            }
+        }
+                    
+                    
+    }
+
     static void Main(string[] args)
     {
 
@@ -96,16 +143,21 @@ internal class Program
         
         
         //printing a dictionary content by iterating
-        PrintDictionaryContent<int, string>(MyDictionary);
-        PrintDictionaryContent<string, string>(FruitsCategory);
+        //PrintDictionaryContent<int, string>(MyDictionary);
+        //PrintDictionaryContent<string, string>(FruitsCategory);
+        //PrintDictionaryContent<string, string>(EmployeeDictionary);
 
         //TryGetValue_Example();
 
         //LINQ_Example1();
 
-        LINQ_Example2();
+        //LINQ_Example2();
 
+        //LINQ_Example3();
+        
+        LINQ_Example4();
 
+        Console.Write("\n\n\n");
     }
 
 }
