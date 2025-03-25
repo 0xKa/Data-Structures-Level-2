@@ -9,7 +9,7 @@ internal class Program
 {
     public static HashSet<int> MyHashset = new HashSet<int>()
     {
-        1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+        1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
     };
 
     public static void PrintHashset<T>(HashSet<T> hashset)
@@ -64,6 +64,31 @@ internal class Program
         PrintHashset(hashset1);
     }
 
+    public static void ComparingHashSets()
+    {
+        //check if a hashset equals a given collection
+        bool result1 = hashset1.SetEquals(hashset2);
+        bool result2 = hashset1.SetEquals(new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 });
+
+        //check if a hashset is a subset of a given collection
+        bool result3 = hashset1.IsSubsetOf(MyHashset);
+        bool result4 = hashset1.IsSubsetOf(new int[] { 1, 2, 3 });
+        
+        //check if a hashset is a superset of a given collection
+        bool result5 = hashset1.IsSupersetOf(MyHashset);
+        bool result6 = hashset1.IsSupersetOf(new int[] { 1, 2, 3 });
+
+        bool result7 = hashset1.Overlaps(hashset2);
+
+        Console.WriteLine(result1);
+        Console.WriteLine(result2);
+        Console.WriteLine(result3);
+        Console.WriteLine(result4);
+        Console.WriteLine(result5);
+        Console.WriteLine(result6);
+        Console.WriteLine(result7);
+
+    }
 
     static void Main(string[] args)
     {
@@ -87,6 +112,9 @@ internal class Program
         //IntersectionOperationWithHashSet();
         //DifferenceOperationWithHashSet();
         //SymmetricDifferenceOperationWithHashSet();
+
+
+        //ComparingHashSets();
 
         Console.WriteLine("\n\n\n");
     }
