@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B0067573-ACA9-423F-B0D3-AE17DA45D134}</ProjectGuid>
+    <ProjectGuid>{72862755-31FF-4AC2-B75A-F5BBECA75570}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_6_Hashset</RootNamespace>
-    <AssemblyName>6-Hashset</AssemblyName>
+    <RootNamespace>_06_Hashset</RootNamespace>
+    <AssemblyName>06-Hashset</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

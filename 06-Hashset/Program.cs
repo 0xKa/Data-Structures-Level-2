@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 
 internal class Program
@@ -73,7 +72,7 @@ internal class Program
         //check if a hashset is a subset of a given collection
         bool result3 = hashset1.IsSubsetOf(MyHashset);
         bool result4 = hashset1.IsSubsetOf(new int[] { 1, 2, 3 });
-        
+
         //check if a hashset is a superset of a given collection
         bool result5 = hashset1.IsSupersetOf(MyHashset);
         bool result6 = hashset1.IsSupersetOf(new int[] { 1, 2, 3 });
