@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-Hashset", "..\06-Hashset
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-SortedList", "..\07-SortedList\07-SortedList.csproj", "{F84586DC-A012-405E-8FE9-98C15B3CCA40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-SortedSet", "..\08-SortedSet\08-SortedSet.csproj", "{22C46DFD-DC87-4095-BEA5-D66ACFCCD91A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F84586DC-A012-405E-8FE9-98C15B3CCA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F84586DC-A012-405E-8FE9-98C15B3CCA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F84586DC-A012-405E-8FE9-98C15B3CCA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C46DFD-DC87-4095-BEA5-D66ACFCCD91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C46DFD-DC87-4095-BEA5-D66ACFCCD91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C46DFD-DC87-4095-BEA5-D66ACFCCD91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C46DFD-DC87-4095-BEA5-D66ACFCCD91A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
