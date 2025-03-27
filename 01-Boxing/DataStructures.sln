@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-SortedSet", "..\08-Sorte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-SortedDictionary", "..\09-SortedDictionary\09-SortedDictionary.csproj", "{583C23FE-A168-43F8-8C6E-ADDC12AF22D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-ArrayList", "..\10-ArrayList\10-ArrayList.csproj", "{60D2C1B9-A783-4BB9-922A-7E21646E117A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{583C23FE-A168-43F8-8C6E-ADDC12AF22D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{583C23FE-A168-43F8-8C6E-ADDC12AF22D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{583C23FE-A168-43F8-8C6E-ADDC12AF22D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D2C1B9-A783-4BB9-922A-7E21646E117A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D2C1B9-A783-4BB9-922A-7E21646E117A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D2C1B9-A783-4BB9-922A-7E21646E117A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D2C1B9-A783-4BB9-922A-7E21646E117A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
