@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-ObservableCollection", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-QueueStack", "..\12-QueueStack\12-QueueStack.csproj", "{E94AD0F3-435A-45C4-AFB9-2E3B92B90A87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-LinkedList", "..\13-LinkedList\13-LinkedList.csproj", "{12CCE7D7-C6DD-4382-B3F9-8BDDD39F8347}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{E94AD0F3-435A-45C4-AFB9-2E3B92B90A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E94AD0F3-435A-45C4-AFB9-2E3B92B90A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E94AD0F3-435A-45C4-AFB9-2E3B92B90A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CCE7D7-C6DD-4382-B3F9-8BDDD39F8347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CCE7D7-C6DD-4382-B3F9-8BDDD39F8347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CCE7D7-C6DD-4382-B3F9-8BDDD39F8347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CCE7D7-C6DD-4382-B3F9-8BDDD39F8347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
