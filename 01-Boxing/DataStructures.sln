@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-BitArray", "..\15-BitArr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-JaggedArray", "..\16-JaggedArray\16-JaggedArray.csproj", "{CCCC041A-49D2-4906-AD7D-BE38B743B6C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-Tuple", "..\17-Tuple\17-Tuple.csproj", "{093ECADA-6267-462F-A834-8A0FF7B6820F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{CCCC041A-49D2-4906-AD7D-BE38B743B6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCC041A-49D2-4906-AD7D-BE38B743B6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCC041A-49D2-4906-AD7D-BE38B743B6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093ECADA-6267-462F-A834-8A0FF7B6820F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093ECADA-6267-462F-A834-8A0FF7B6820F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093ECADA-6267-462F-A834-8A0FF7B6820F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093ECADA-6267-462F-A834-8A0FF7B6820F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
