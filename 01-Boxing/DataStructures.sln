@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-JaggedArray", "..\16-Jag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-Tuple", "..\17-Tuple\17-Tuple.csproj", "{093ECADA-6267-462F-A834-8A0FF7B6820F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-CollectionInterfaces", "..\19-CollectionInterfaces\19-CollectionInterfaces.csproj", "{19D72CB9-109B-48E3-B49F-5A1250C2A058}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{093ECADA-6267-462F-A834-8A0FF7B6820F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{093ECADA-6267-462F-A834-8A0FF7B6820F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{093ECADA-6267-462F-A834-8A0FF7B6820F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D72CB9-109B-48E3-B49F-5A1250C2A058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D72CB9-109B-48E3-B49F-5A1250C2A058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D72CB9-109B-48E3-B49F-5A1250C2A058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D72CB9-109B-48E3-B49F-5A1250C2A058}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
