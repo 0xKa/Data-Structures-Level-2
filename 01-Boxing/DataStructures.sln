@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23-GraphAdjacencyList", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24-BinaryHeap", "..\24-BinaryHeap\24-BinaryHeap.csproj", "{49D42898-F268-4B09-BAC5-A71F421FF875}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25-PriorityQueue", "..\25-PriorityQueue\25-PriorityQueue.csproj", "{1EE10037-117C-4714-8D03-4C8802FE5B3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{49D42898-F268-4B09-BAC5-A71F421FF875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49D42898-F268-4B09-BAC5-A71F421FF875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49D42898-F268-4B09-BAC5-A71F421FF875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE10037-117C-4714-8D03-4C8802FE5B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE10037-117C-4714-8D03-4C8802FE5B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE10037-117C-4714-8D03-4C8802FE5B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE10037-117C-4714-8D03-4C8802FE5B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
