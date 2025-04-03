@@ -13,7 +13,7 @@ public class Graph
 
     private Dictionary<string, List< Tuple<string, int> > > _adjacencyList;
 
-    private int _numberOfVertices;
+    public int NumberOfVertices { get; set; }
 
     private Dictionary<string, int> _vertexDictionary;
 
@@ -21,7 +21,7 @@ public class Graph
     {
         this._graphDirectionType = graphDirectionType;
 
-        this._numberOfVertices = verticesList.Count;
+        this.NumberOfVertices = verticesList.Count;
         this._adjacencyList = new Dictionary<string, List<Tuple<string, int>>>();
 
         this._vertexDictionary = new Dictionary<string, int>();
